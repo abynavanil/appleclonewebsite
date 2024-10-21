@@ -1,0 +1,183 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto", sans-serif;
+    /* border: solid red; */
+    /* background-color: rgb(19, 18, 18); */
+ 
+}
+body{
+    padding-top: 48px;
+    background-color: rgba(24, 24, 24);
+   
+}
+.listitems{
+display: flex;
+text-decoration: none;
+justify-content: space-between;
+list-style: none;
+background-color: rgb(24, 24, 24);
+opacity: 70%;
+color: white;
+width:100%;
+height: 48px;
+align-items: center;
+padding: 0 20%;
+position: relative;
+
+
+backdrop-filter: blur(50%);
+}
+.navbar{
+    z-index: 101;
+    position: fixed;
+    width: 100%;
+    top: 0;
+  
+
+}
+
+.navitem{
+    font-size: 12px;
+    font-weight: 100;
+}
+.ribbon{
+    height: 48px;
+    width: 100%;
+    background-color:rgb(29, 29, 31);
+    color: white;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    
+}
+.ribbon p{
+    font-weight: 300;
+   text-align: center;
+  
+}
+.ribbon a{
+text-decoration: none;
+color: rgb(48, 99, 228);
+}
+.iphonepro {
+    width: 100%;
+    height: 80vh;
+    background-image: url("./image/hero_iphone16pro_avail__fnf0f9x70jiy_largetall.jpg");
+ background-size: cover;
+ background-position: center;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ align-items: center;
+ padding: 50px 0px;
+    
+}
+
+.text{
+    
+
+text-align: center;
+    color: white;
+    font-size: 25px;
+ 
+
+    
+
+
+}
+.text h1{
+    font-weight: 500;
+}
+.text p{
+  font-weight: 300;
+}
+.button{
+    text-align: center;
+}
+.btn{
+    font-size: 18px;
+    border-radius: 25px;
+    padding: 10px 15px;
+    color: white;
+    border: solid 2px rgb(48, 111, 219);
+    font-weight: 300;
+}
+.btn-one{
+    background-color: rgb(48, 111, 219);;
+}
+.btn-two{
+    background-color: transparent;
+    color: rgb(48, 111, 219);
+    margin-left: 20px;
+}
+.button p{
+    color: white;
+    opacity: .5;
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 20px;
+}
+.hover-nav{
+    height: 50vh;
+    background-color: rgba(24, 24, 24);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: 100;
+    top:  -50vh;
+transition: top 1s;
+text-align: center;
+}
+
+.navbar:hover ~.hover-nav{
+    top: 48px;
+
+}
+.spacer{
+    width: 100%;
+    height: 10px;
+    background-color: white;
+}
+.iphonesixteen {
+    width: 100%;
+    height: 80vh;
+    background-image: url("./image/hero_iphone16_avail__euwzls69btea_largetall.jpg");
+ background-size: cover;
+ background-position: center;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ align-items: center;
+ padding: 50px 0px;
+    
+}
+#ipsixteen{
+    color: black;
+}
+.applewatch {
+    width: 100%;
+    height: 80vh;
+    background-image: url("./image/promo_apple_watch_series_10_avail__b9etp10v9tn6_large.jpg");
+ background-size: cover;
+ background-position: center;
+ display: flex;
+ flex-direction: column;
+
+ align-items: center;
+ padding: 50px 0px;
+    
+}
+.applewatch h1{
+    color: black;
+}
+#watch{
+    color: black;
+}
+.applewatch > .button{
+    margin-top: 20px;
+}
